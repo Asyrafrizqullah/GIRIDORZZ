@@ -67,29 +67,29 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <form>
+                    <form action="proses.php" method="post">
                         <div class="mb-3">
                             <label for="bukti-tf" class="form-label">Link Bukti Transfer</label>
-                            <input type="text" class="form-control" id="bukti-tf">
+                            <input type="text" class="form-control" id="bukti-tf" name="linkBukti">
                         </div>
                         <div class="mb-3">
                             <label for="bank-name" class="form-label">Nama Bank</label>
-                            <input type="text" class="form-control" id="bank-name">
+                            <input type="text" class="form-control" id="bank-name" name="namaBank">
                         </div>
                         <div class="mb-3">
                             <label for="full-name" class="form-label">Nama Pengirim</label>
-                            <input type="text" class="form-control" id="bank-name">
+                            <input type="text" class="form-control" id="bank-name" name="namaPengirim">
+                        </div>
+                        <div class="my-5 control-booking">
+                        <a href="page/booking/booking-status.html" class="btn btn-warning nav-link my-3" name="submit">
+                        Lanjut Booking
+                        </a>
+                        <a href="detail-kamar.html" class="btn btn-light nav-link my-3" href="#">
+                        Batal
+                        </a>
                         </div>
                     </form>
-                </div>
-                <div class="my-5 control-booking">
-                    <a href="/page/booking/booking-status.html" class="btn btn-warning nav-link my-3" href="#">
-                        Lanjut Booking
-                    </a>
-                    <a href="index.html" class="btn btn-light nav-link my-3" href="#">
-                        Batal
-                    </a>
-                </div>
+                
             </div>
         </div>
     </main>
